@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+Cats:
+<input Id="Cats" type="checkbox" value="Cats">
+Dogs:
+<input Id="Dogs" type="checkbox" value="Dogs">
+<p>Click the button to find out how many elements there are in the document that have a name attribute with the value
+"animal".</p>
+<button onclick="myFunction()">Try it</button>
+<p id="demo"></p>
+<script>
+function myFunction() {
+var x = document.getElementById("Cats").value;
+document.getElementById("demo").innerHTML = x;
+}
+</script>
+</body>
+</html>

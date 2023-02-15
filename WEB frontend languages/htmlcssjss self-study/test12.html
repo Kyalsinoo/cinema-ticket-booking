@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table{
+                border-collapse: collapse;
+                width: 50%;
+            }
+            td,tr{
+                text-align: right;
+                padding:5px;
+            }
+            tr:nth-child(even){background-color: yellowgreen;}
+            tr{
+                background-color: olivedrab;
+            }
+           input{
+            background-color: rgb(152, 194, 102);
+           }
+        </style>
+    </head>
+    <body>
+        <table border="solid"  >
+              <tr>
+                    <td >
+                             First name :
+                    </td>
+                    <td>
+                            <input type="text">
+                    </td>
+            </tr>
+        
+            <tr>
+                    <td>
+                            Last name:
+                    </td>
+                    <td>
+                            <input type= "text">
+                    </td>
+             </tr>
+             <tr>
+                    <td>
+                            E-mail : 
+                    </td>
+                    <td>
+                            <input type="email"><br> 
+                    </td>
+            </tr>
+            <tr>
+                    <td>
+                        I like socks: 
+                    </td>
+                    <td>
+                        <input type="radio" >Yes
+                        <input type="radio" >No
+                    </td>
+             </tr>
+                <tr>
+                    <td>
+     Sock colors that I like:
+                    </td>
+                    <td>
+                        <input type="checkbox">red
+                        <input type="checkbox">Blue<br>
+                        <input type="checkbox">Black
+                        <input type="checkbox">Yellow 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+ Sock colors that I dislike: 
+</td>
+<td>
+    <input type="checkbox"> Silver
+    <input type="checkbox"> Tan <br>
+    <input type="checkbox"> Salad
+    <input type="checkbox">Garnet
+</td>
+</tr>   
+<tr>
+    <td>
+        Least favorite sock color:
+    </td>
+    <td>
+       <select>
+        <option> Orange</option>
+        <option> red</option>
+       </select>
+    </td>
+</tr>  
+
+    <tr>
+        <td>
+        <input type="submit" value="Submit me">
+    </td>
+    <td>
+        <input type="reset" value="Clear">
+    </td>
+    </tr>
+         </table>
+    </body>
+</html>

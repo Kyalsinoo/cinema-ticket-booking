@@ -1,0 +1,50 @@
+.main{
+	position:relative;
+	width:200px;
+	 height:200px;
+	margin:200px auto;
+	transition:2s;
+	animation-name:rotateSquare;
+	animation-duration:1s;
+	animation-iteration-count:infinite;
+	animation-timing-function:linear;
+}
+.main:hover{
+	transform:rotate(360deg);
+}
+.box{
+	position:absolute;
+  	width:50px;
+	height:50px;
+	border-radius:50%;
+	
+}
+.red{
+	top:0;
+	letf:0;
+	background:red;
+}
+.blue{
+	top:0;
+	right:0;
+	background:blue;
+}
+.green{
+	bottom:0;
+	left:0;
+	background:green;
+}
+.yellow{
+	bottom:0;
+	right:0;
+	background:yellow;
+}
+@keyframes rotateSquare{
+	from{
+	transform:rotate(0deg);
+}
+	to{
+	transform:rotate(360deg);
+}
+
+}
